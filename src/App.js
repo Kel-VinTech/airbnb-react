@@ -1,10 +1,12 @@
-
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import HeroContent from './components/HeroContent';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="container">
+      <Header />
+      <HeroContent />
     </div>
   );
 }
