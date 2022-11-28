@@ -43,6 +43,10 @@ img{
     padding: 0 2rem;
 }
 
+.hero{
+    margin-bottom: 30px;
+}
+
 .hero_img{
     padding: 25px 0;
     margin: 0 auto;
@@ -63,21 +67,22 @@ img{
 
 
 .card{
-    max-width: 250px;
-    font-size: 1.1rem;
+    max-width: 350px;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
 }
 
 .card_img{
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
 .card__stat{
     display: flex;
     align-items: center;
     gap: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .card__stat img{

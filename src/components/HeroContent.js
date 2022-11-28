@@ -7,7 +7,7 @@ const HeroContent = () => {
             <img className="hero_img" src={Img} alt="grid"/>
             <h1>Online Experiences</h1>
             <p>Join unique interactive activities led by
-               one-of-a-kind hosts-all without leaving home
+               one-of-a-kind hosts-all without leaving home.
             </p>
         </section>
     )
