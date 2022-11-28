@@ -6,7 +6,7 @@ import star from "../img/Star 1.png";
 const Card = ({img,rating,reviewCount,country,title,price }) => {
     return(
         <div className="card row">
-            <img className="card_img" src={`../img/${img}`}  alt="woman" />
+            <img className="card_img" src={img}  alt="woman" />
             <div className="card__stat">
                 <img src={star}  alt="woman" />
                 <span>{rating}</span>
