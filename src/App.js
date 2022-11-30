@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import HeroContent from './components/HeroContent';
 import Card from "./components/Card";
-import CardData from "./components/CardData";
+import Data from "./Data";
 
 
 {/* <HeroContent />  */}
@@ -12,7 +12,7 @@ import CardData from "./components/CardData";
 
 
 function App() {
-  const cards = CardData.map(item => {
+  const cards = Data.map(item => {
     return (
         <Card 
                 img={item.img}
