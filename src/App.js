@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../src/img/image 12.png";
 import Header from "./components/Header";
 import HeroContent from './components/HeroContent';
 import Card from "./components/Card";
@@ -13,6 +12,7 @@ function App() {
     return (
         <Card 
                 img={item.img}
+                ID={item.id}
                 rating={item.rating}
                 reviewCount = {item.reviewCount}
                 country = {item.country}
@@ -27,7 +27,6 @@ function App() {
     <div className="container">
       <Header />
       {cards}
-      <img src={img} alt="woman"/>
     </div>
   );
 }
