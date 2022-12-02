@@ -11,13 +11,7 @@ function App() {
   const cards = Data.map(item => {
     return (
         <Card 
-                img={item.img}
-                openSpot={item.openSpot}
-                rating={item.rating}
-                reviewCount = {item.reviewCount}
-                country = {item.country}
-                title = {item.title}
-                price = {item.price}      
+              item={item}      
         />
     )
   })
