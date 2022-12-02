@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import HeroContent from './components/HeroContent';
 import Card from "./components/Card";
 import Data from "./Data";
-{/* <HeroContent />  */}
+
 
 
 
@@ -11,7 +11,7 @@ function App() {
   const cards = Data.map(item => {
     return (
         <Card 
-              item={item}      
+              {...item}      
         />
     )
   })
@@ -20,7 +20,10 @@ function App() {
          
     <div className="container">
       <Header />
-      {cards}
+      <HeroContent />  
+      <section className="card_container">
+      {cards} 
+      </section>
     </div>
   );
 }

@@ -34,7 +34,18 @@ import img3 from "../src/img/mountain-bike 1.png";
             title:"Group Mountain Biking",
             price: 125,
             openSpot:3
-        }
+        },
+        {
+            id:3,
+            img:img3,
+            rating:"4.2",
+            reviewCount :2,
+            country: "USA",
+            title:"Group Mountain Biking",
+            price: 125,
+            openSpot:3
+        },
+        
     
     ]
 

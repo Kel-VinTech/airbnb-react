@@ -3,9 +3,9 @@ import star from "../img/Star 1.png";
 
 const Card = (props) => {
    let badgeText;
-   if (props.item.openSpot === 0) {
+   if (props.openSpot === 0) {
     badgeText = "SOLD OUT"
-   } else if (props.item.country === "Online") {
+   } else if (props.country === "Online") {
     badgeText = "ONLINE"
    }
 
@@ -13,15 +13,15 @@ const Card = (props) => {
     return(
         <div className="card row">
             {badgeText && <div className="card_badge">{badgeText}</div>}
-            <img className="card_img" src={props.item.img} alt="woman" />
+            <img className="card_img" src={props.img} alt="woman" />
             <div className="card__stat">
                 <img src={star}  alt="star" />
-                <span>{props.item.rating}</span>
-                <span className="gray">({props.item.reviewCount}) •</span>
-                <span className="gray">{props.item.country}</span>
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) •</span>
+                <span className="gray">{props.country}</span>
             </div>
-            <p>{props.item.title}</p>
-            <p><span className="bold">From ${props.item.price}</span>/ person</p>
+            <p className="card_title">{props.title}</p>
+            <p><span className="bold">From ${props.price}</span>/ person</p>
         </div>
     )
 }

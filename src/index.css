@@ -70,6 +70,9 @@ img{
     max-width: 350px;
     font-size: 1.25rem;
     margin-bottom: 30px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
     position: relative;
 }
 
@@ -98,4 +101,35 @@ img{
     font-weight: bold;
     font-size: 1.2rem;
 
+}
+
+.card_title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* media queries */
+
+@media screen and (min-width:768px) {
+    .hero h1{
+        font-size: 3rem;
+        
+    }
+    
+    .hero p{
+        width: 95%;
+        font-size: 1.5rem;
+    }
+
+    .card_img{
+        width: 100%;
+    }
+
+    .card_container{
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    
 }
