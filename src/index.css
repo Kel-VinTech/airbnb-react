@@ -70,6 +70,7 @@ img{
     max-width: 350px;
     font-size: 1.25rem;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .card_img{
@@ -87,4 +88,14 @@ img{
 
 .card__stat img{
     height: 15px;
+}
+.card_badge{
+    position: absolute;
+    margin: 10px 0 0 10px;
+    padding: 4px 10px;
+    background: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.2rem;
+
 }

@@ -9,18 +9,20 @@ import img3 from "../src/img/mountain-bike 1.png";
             img: img1,
             rating:"5.0",
             reviewCount :6,
-            country: "USA",
+            country: "Online",
             title:"Life lessons with Katie Zaferes",
-            price: 136
+            price: 136,
+            openSpot:0
         },
 
         {   id:2,
             img:img2,
             rating:"5.0",
             reviewCount :30,
-            country: "USA",
+            country: "Online",
             title:"Learn wedding photography",
-            price: 125
+            price: 125,
+            openSpot:27
         },
 
         {
@@ -30,7 +32,8 @@ import img3 from "../src/img/mountain-bike 1.png";
             reviewCount :2,
             country: "USA",
             title:"Group Mountain Biking",
-            price: 125
+            price: 125,
+            openSpot:3
         }
     
     ]

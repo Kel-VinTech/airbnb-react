@@ -12,7 +12,7 @@ function App() {
     return (
         <Card 
                 img={item.img}
-                ID={item.id}
+                openSpot={item.openSpot}
                 rating={item.rating}
                 reviewCount = {item.reviewCount}
                 country = {item.country}
